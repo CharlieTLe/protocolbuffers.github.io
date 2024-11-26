@@ -8,7 +8,7 @@ type = "docs"
 Updated for proto3. Patches welcome!
 
 This doc is a complement to
-[Proto Best Practices](/programming-guides/dos-donts).
+[Proto Best Practices](/best-practices/dos-donts).
 It's not a prescription for Java/C++/Go and other APIs.
 
 If you see a proto straying from these guidelines in a code review, point the
@@ -123,7 +123,7 @@ The following are exceptions to the rule:
     opaquely as possible so that you don't create a dependency nexus. Consider
     using extensions or [Encode Opaque Data in Strings by Web-safe Encoding
     Binary Proto
-    Serialization](/programming-guides/api#encode-opaque-data-in-strings).
+    Serialization](/best-practices/api#encode-opaque-data-in-strings).
 
 ## For Mutations, Support Partial Updates or Append-Only Updates, Not Full Replaces {#support-partial-updates}
 
