@@ -925,7 +925,7 @@ to store your protocol buffer messages, the changes that you can make in your
 proto definition are different. {{% /alert %}}
 
 Check
-[Proto Best Practices](/programming-guides/dos-donts) and
+[Proto Best Practices](/best-practices/dos-donts) and
 the following rules:
 
 *   Don't change the field numbers for any existing fields. "Changing" the field
